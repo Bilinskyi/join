@@ -2,8 +2,8 @@
 
 var gulp = require('gulp'),
 sass = require('gulp-sass'),
-minifycss = require('gulp-minify-css'),
-rename = require('gulp-rename'),
+// minifycss = require('gulp-minify-css'),
+// rename = require('gulp-rename'),
 browserSync = require('browser-sync').create(),
 imageop = require('gulp-image-optimization'),
 autoprefixer = require('gulp-autoprefixer');

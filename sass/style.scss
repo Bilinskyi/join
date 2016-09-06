@@ -3,7 +3,72 @@
 @import "base.scss";
 @import "form.scss";
 
+.wrapper {
+  font-family: 'Conv_8277';
+  width: 1250px;
+  margin: 0 auto;
+  padding: 0 110px;
+  position: relative;
+  color: #fff;
+}
 
-  
+header {
+  background-color: #3ead78;
+  text-align: center;
+  .top {
+    img {
+      vertical-align: middle;
+      display: inline-block;
+    }
+    .logo-txt {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      span {
+        position: relative;
+        z-index: 3;
+        color: #334c52;
+        font-size: 70px;
+        font-family: 'Conv_ufonts.com_calibri-bold';
+      }
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 2;
+        left: 5px;
+        top: 23px;
+        width: 454px;
+        height: 199px;
+        background: url(../img/shadow-1.png) left top no-repeat;
+      }
+    }
+
+  }
+  h1 {
+    color: white;
+    font-size: 70px;
+    position: relative;
+    display: inline-block;
+    span {
+      font-family: 'Conv_ufonts.com_calibri-bold';
+      position: relative;
+      z-index: 2;
+    }
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 1119px;
+      z-index: 1;
+height: 143px;
+left: 5px;
+top: 21px;
+background: url(../img/shadow-2.png) left center no-repeat;
+    }
+  }
+}
+
+
 
 
