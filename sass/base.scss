@@ -1,8 +1,8 @@
 
-::-webkit-input-placeholder {font-family: 'latoRegular';color: white;font-size: 18px;}
-::-moz-placeholder {font-family: 'latoRegular';color: white;font-size: 18px;}/* Firefox 19+ */
-:-moz-placeholder {font-family: 'latoRegular';color: white;font-size: 18px;}/* Firefox 18- */
-:-ms-input-placeholder {font-family: 'latoRegular';color: white;font-size: 18px;}
+::-webkit-input-placeholder {font-family: 'Open Sans', sans-serif; font-weight: 400; color: white;font-size: 18px;}
+::-moz-placeholder {font-family: 'Open Sans', sans-serif; font-weight: 400; color: white;font-size: 18px;}/* Firefox 19+ */
+:-moz-placeholder {font-family: 'Open Sans', sans-serif; font-weight: 400; color: white;font-size: 18px;}/* Firefox 18- */
+:-ms-input-placeholder {font-family: 'Open Sans', sans-serif; font-weight: 400; color: white;font-size: 18px;}
 
 * {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
 .inline-center{text-align: center;}
@@ -19,9 +19,13 @@ body {
   position: relative; 
   min-width: 1250px;
   color: #fff;
-  font-family: 'latoRegular';
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 400;
 }
 
+.hide {
+  display: none;
+}
 ul {
   margin: 0;padding: 0;
   li {

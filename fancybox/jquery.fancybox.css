@@ -103,13 +103,13 @@
 
 .fancybox-close {
     position: absolute;
-    top: -15px;
-    right: -20px;
-    width: 13px;
-    height: 13px;
+    top: -45px;
+    right: -45px;
+    width: 28px;
+    height: 28px;
     cursor: pointer;
     z-index: 8040;
-    background: url(close.png) no-repeat;
+    background: url(../img/close.png) no-repeat;
 }
 
 .fancybox-nav {

@@ -26,7 +26,7 @@ gulp.task('images', function(cb) {
 
 gulp.task('sass', function () {
 	return gulp.src('./sass/**/style.scss')
-	.pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
+	.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 	.pipe(autoprefixer('last 10 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
 	// .pipe(rename({suffix: '.min'}))
 	// .pipe(minifycss())
