@@ -105,7 +105,9 @@ label.error {
 }
 
 header {
-  background-color: #3ead78;
+  background-color: #87d1b9;
+  background: url(../img/header.jpg) center top no-repeat;
+  background-size: cover;
   text-align: left;
   padding-top: 55px;
   .top {
@@ -133,7 +135,9 @@ header {
 
 .color-top {
   height: 500px;
-  background-color: #f8d675;
+  background: url(../img/bg-bottom.jpg) center top no-repeat;
+  background-color: #ffc77c;
+  background-size: cover;
   text-align: center;
   position: relative;
   .pattern {
@@ -274,7 +278,7 @@ header {
     float: left;
     margin-left: 85px;
     & + .text-block {
-      margin-left: 336px;
+      margin-left: 363px;
     }
   }
   &.circle-right {
@@ -308,7 +312,7 @@ header {
 
 .logos-wrapp {
   text-align: right;
-  padding: 27px 0;
+  padding: 27px 0 0;
   img {
     display: inline-block;
     vertical-align: middle;
@@ -325,14 +329,15 @@ footer {
     color: white;
     font-size: 30px;
     text-transform: uppercase;
-    background-color: #e73e3e;
-    border: 2px solid #be1b1b;
-    border-radius: 4px;
     position: relative;
     z-index: 3;
     padding: 12px 53px;
-    box-shadow: 0 0 29px rgba(0, 0, 0, 0.43), inset 0 -4px 5.6px 0.4px rgba(172, 38, 38, 0.75), inset 0 0 7px rgba(244, 119, 119, 0.75);
+    background-color: #11b600;
+border: 2px solid #0e9300;
+border-radius: 4px;
+box-shadow: 0 0 29px rgba(0, 0, 0, 0.43), inset 0 -4px 5.6px 0.4px rgba(12, 130, 0, 0.75), inset 0 0 7px rgba(35, 199, 18, 0.75);
     &:hover {
+      background-color: #0e9300;
       cursor: pointer;
     }
   }
